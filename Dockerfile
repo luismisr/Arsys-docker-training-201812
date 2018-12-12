@@ -10,7 +10,4 @@ RUN echo '<marquee>Hello from Arsys!!</marquee>' \
 
 EXPOSE 80
 
-
-
-ENTRYPOINT [ "nginx","-g","daemon off;" ]
-CMD [ "-h" ]
+WORKDIR /etc
